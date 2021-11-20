@@ -11,10 +11,10 @@ import twitter4j.conf.ConfigurationBuilder;
 @ConditionalOnClass ({ TwitterFactory.class, Twitter.class })
 public class Twitter4jConfiguration {
 
-	static final String CONSUMER_KEY = "3PvWZxZFis64noI1DlDPTh1Fp";
-	static final String CONSUMER_SECRET = "0xibWPmzreKogegyXJu9yBUlRQ9VVrxx0CufXWB5CUZsA6GlSc";
-	static final String ACCESS_TOKEN = "1461074085769887749-KESPZ4kvvaTcWdNwUbpUSNAMhUnRBf";
-	static final String ACCESS_TOKEN_SECRET = "u0MrofRrBlsBFHI2XMbDjmVWRSmEs0dwsKc1QMCrR5k05";
+	static final String CONSUMER_KEY = "xx";
+	static final String CONSUMER_SECRET = "xx";
+	static final String ACCESS_TOKEN = "xx";
+	static final String ACCESS_TOKEN_SECRET = "xx";
 
 	@Bean
 	@ConditionalOnMissingBean
